@@ -1,3 +1,2 @@
 ## Project 4 Readme
-
-This is the README document. Use it to describe the project and cite sources.
+This is a weaving color palette generator because I needed to choose weft colors this week. You can see a live version of [this p5 sketch here](https://editor.p5js.org/de-vo13/sketches/y6XrNWHIP).
