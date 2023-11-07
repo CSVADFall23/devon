@@ -74,7 +74,7 @@ class PlotManager{
       loadPixels();
       let out ="";
       let d = pixelDensity()*pixelDensity();
-      console.log(d)
+    //   console.log(d)
       let pixMod= 4.0;
       console.log(pixels)
   
@@ -90,6 +90,7 @@ class PlotManager{
             motion = motion.replace(/pixelY/g, (j/d));          
             out += motion;
           } 
+
         }
       }
       updatePixels();

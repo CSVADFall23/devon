@@ -8,6 +8,8 @@ function setup() {
   // pixelDensity(3);
   // strokeWeight(4);
   plotSetUp();
+  plot.setUnits(2);
+
 }
 
 function draw() {  
@@ -27,7 +29,6 @@ function draw() {
 
 function plotSetUp(){
   //draw a 2 unit line in the positive X for each point
-  plot.setUnits(2);
   plot.addAbsoluteGoTo();
   plot.addPenDown();
   plot.addRelativeGoTo(2, 0);

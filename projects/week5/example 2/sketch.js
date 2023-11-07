@@ -5,8 +5,9 @@ function setup() {
   canvas = createCanvas(100, 100);
   noFill();
   noLoop();
-  // pixelDensity(3);
+  // pixelDensity(1);
   // strokeWeight(4);
+  plot.setUnits(2);
   plotSetUp();
 }
 
@@ -27,7 +28,6 @@ function draw() {
 
 function plotSetUp(){
   //draw a 8 unit diagonal line in the positive X and Y then draw a line in the -3 Y direction for each point
-  plot.setUnits(2);
   plot.addAbsoluteGoTo();
   plot.addPenDown();
   plot.addRelativeGoTo(8, 8);
