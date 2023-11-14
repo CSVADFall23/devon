@@ -1,3 +1,3 @@
 ## Project 7 Readme
 
-This is the README document. Use it to describe the project and cite sources.
+This is p5.js sketch that can be seen live [here](https://editor.p5js.org/de-vo13/sketches/lwwv8HXWH). I wanted to explore harmonograph simulations, that replicate a pendulum path. I sorted through a couple formulas that can be used to do this work and found I liked the complexity of the ouput for this one best. I've exposed the four amiplutude parameters with ranges of -200 to 200 and put in stop and reset buttons to allow for clean slate adjustments in the pattern. 
